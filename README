@@ -1,0 +1,12 @@
+== ENVJS SUBDOMAIN EXAMPLE
+
+This is a very simple app that illustrates this bug in capybara-envjs: http://github.com/smparkes/capybara-envjs/issues#issue/31
+
+
+== Getting Started
+
+1. Run 'bundle install' to download rails 3 and capybara-envjs (and dependencies)
+
+2. Run 'rake test:integration' to see a very simple test fail trying to navigate to a subdomain.
+
+3. In test/integration/subdomain_test.rb uncomment the Selenium driver line and see the test pass using Selenium
